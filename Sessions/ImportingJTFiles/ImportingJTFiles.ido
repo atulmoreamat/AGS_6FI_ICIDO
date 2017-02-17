@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<root>
+
+  <FileHeader name="FileHeader">
+    <String ICIDO_GmbH_Session_File_Version="11.0.0"/>
+    <IDOFile ModelFile="ImportingJTFiles.icb"/>
+    <IDOFile StatesFile="state.xml"/>
+    <IDOFile ReferenceTreeFile="referenceTree.xml"/>
+    <Boolean HasExternalReferences="true"/>
+    <Boolean SavedExternalReferences="false"/>
+    <Boolean CombinerActive="false"/>
+    <String Metric="m"/>
+    <String InitialState="state:id/1885"/>
+    <String RecentState="state:id/1885"/>
+  </FileHeader>
+
+  <StateContainer name="StateContainer_0">
+    <String Module="libIDOAppInterface"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Animations"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOAnimationSessionHandler"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <StringList Dependencies="1" element_0="IDOVariantsSessionHandler"/>
+      <Integer AnimationFileReferenceCount="0"/>
+      <TreeNode name="TreeNode_0">
+        <String NodeName="Root"/>
+        <String NodeType="GroupNode"/>
+        <Integer TreeNodeCount="0"/>
+      </TreeNode>
+      <Integer AnimationCount="0"/>
+      <Integer AnimationLibraryCount="0"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_1">
+    <String Module="libIDOExplore"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="10"/>
+    <StatePart name="StatePart_0">
+      <String Name="Filter Views"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOFilterViewSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+      <Integer filterviewnum="0"/>
+    </StatePart>
+    <StatePart name="StatePart_1">
+      <String Name="Lights"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOLightSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+    </StatePart>
+    <StatePart name="StatePart_2">
+      <String Name="CoordinateSystems"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOCoordinateSystemSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+      <StringList Dependencies="2" element_0="IDOExternalReferencesStateHandler" element_1="IDOGroupSessionHandler"/>
+      <Integer NumCoordinateSystems="0"/>
+    </StatePart>
+    <StatePart name="StatePart_3">
+      <String Name="Processes"/>
+      <Boolean apply="true"/>
+      <String Classname="ProcessSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+      <StringList Dependencies="1" element_0="IDOGroupSessionHandler"/>
+      <Node name="Node_0">
+        <String NodeType="Node"/>
+        <String Name="ProcessRoot"/>
+        <Integer Num="0"/>
+      </Node>
+    </StatePart>
+    <StatePart name="StatePart_4">
+      <String Name="Joint Location Session"/>
+      <Boolean apply="true"/>
+      <String Classname="JointLocationSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+      <StringList Dependencies="2" element_0="IDOGroupSessionHandler" element_1="IDOSolidMechanicsSessionHandler"/>
+      <Integer JointLocationCount="0"/>
+    </StatePart>
+    <StatePart name="StatePart_5">
+      <String Name="Control Point Session"/>
+      <Boolean apply="true"/>
+      <String Classname="ControlPointSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+      <StringList Dependencies="2" element_0="IDOGroupSessionHandler" element_1="IDOSolidMechanicsSessionHandler"/>
+      <Integer ControlPointCount="0"/>
+    </StatePart>
+    <StatePart name="StatePart_6">
+      <String Name="Render States"/>
+      <Boolean apply="true"/>
+      <String Classname="IDORenderStatesSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+    </StatePart>
+    <StatePart name="StatePart_7">
+      <String Name="Appearance"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOAppearanceSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+      <StateAppearances name="StateAppearances">
+        <Integer AppearanceCount="0"/>
+      </StateAppearances>
+    </StatePart>
+    <StatePart name="StatePart_8">
+      <String Name="Image"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOImageSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+    </StatePart>
+    <StatePart name="StatePart_9">
+      <String Name="Groups"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOGroupSessionHandler"/>
+      <String ClassLibrary="libIDOExploreApp"/>
+      <StringList Dependencies="1" element_0="IDOSolidMechanicsSessionHandler"/>
+      <Integer GroupCount="1"/>
+      <Group name="Group_0">
+        <String Name="GroupRoot"/>
+        <String UUID="468c5118-f3ba-11e6-8001-4ccc6a4ed9d7"/>
+        <Boolean isAssembly="false"/>
+        <SceneObjectRef AssemblyRef=""/>
+        <Boolean HasWSTransformation="true"/>
+        <Integer ChildCount="0"/>
+        <Boolean FilterUsed="false"/>
+      </Group>
+      <Integer InternalTemplateCount="0"/>
+      <Integer PropertyTemplateCount="0"/>
+      <Integer PropertySetCount="0"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_2">
+    <String Module="libEnvironment"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Environment Session"/>
+      <Boolean apply="true"/>
+      <String Classname="EnvironmentSessionHandler"/>
+      <String ClassLibrary="libEnvironment"/>
+      <Integer Version="1"/>
+      <EnvironmentSessionConfigurationValues name="EnvironmentSessionConfigurationValues">
+        <String FrontDirectionConfigValue="-z"/>
+        <String TopDirectionConfigValue="y"/>
+        <Float GroundLevelConfigValue="0.00000000e+000"/>
+        <Vec3f BackgroundColor="5.46875000e-001 5.85937500e-001 6.25000000e-001 1.00000000e+000 "/>
+      </EnvironmentSessionConfigurationValues>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_3">
+    <String Module="libIDOMaterialUI"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="PhysicalMaterial"/>
+      <Boolean apply="true"/>
+      <String Classname="PhysicalMaterialSessionHandler"/>
+      <String ClassLibrary="libIDOMaterialUI"/>
+      <Integer Version="1"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_4">
+    <String Module="libIDOReview"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="4"/>
+    <StatePart name="StatePart_0">
+      <String Name="BoxSelector"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOBoxSelectorSessionHandler"/>
+      <String ClassLibrary="libIDOReview"/>
+      <Integer NumOfBoxSelectors="0"/>
+    </StatePart>
+    <StatePart name="StatePart_1">
+      <String Name="Markers"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOMarkerSessionHandler"/>
+      <String ClassLibrary="libIDOReview"/>
+      <Integer numberOfSections="0"/>
+    </StatePart>
+    <StatePart name="StatePart_2">
+      <String Name="Measurements"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOMeasurementSessionHandler"/>
+      <String ClassLibrary="libIDOReview"/>
+      <StringList Dependencies="1" element_0="IDOGroupSessionHandler"/>
+      <Integer numberOfSections="0"/>
+      <Integer numberOfMinDistanceSections="0"/>
+    </StatePart>
+    <StatePart name="StatePart_3">
+      <String Name="Viewpoints"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOViewpointObjectsSessionHandler"/>
+      <String ClassLibrary="libIDOReview"/>
+      <Integer numberOfSections="0"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_5">
+    <String Module="libIDOErgonomics"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Ergonomics"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOCharATSessionHandler"/>
+      <String ClassLibrary="libIDOErgonomics"/>
+      <Project name="Project"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_6">
+    <String Module="libIDOGroupBasedSimulation"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Swept Volumes"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOSweptVolumeSessionHandler"/>
+      <String ClassLibrary="libIDOGroupBasedSimulation"/>
+      <Integer numberOfSections="0"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_7">
+    <String Module="libIDOSolidMechanics"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="2"/>
+    <StatePart name="StatePart_0">
+      <String Name="IDOSolidMechanicsSession"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOSolidMechanicsSessionHandler"/>
+      <String ClassLibrary="libIDOSolidMechanics"/>
+      <JointDescr name="joints"/>
+    </StatePart>
+    <StatePart name="StatePart_1">
+      <String Name="CableSpecification"/>
+      <Boolean apply="true"/>
+      <String Classname="CableSpecificationSessionHandler"/>
+      <String ClassLibrary="libIDOSolidMechanics"/>
+      <StringList Dependencies="2" element_0="PhysicalMaterialSessionHandler" element_1="IDOGroupSessionHandler"/>
+      <Integer Version="1"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_8">
+    <String Module="libIDOPresent"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Sequencer Tracks"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOSequencerSessionHandler"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <StringList Dependencies="1" element_0="IDOAnimationSessionHandler"/>
+      <Double StartTime="0.0000000000000000e+000"/>
+      <Double StopTime="1.0000000000000000e+001"/>
+      <Integer RepeatBehavior="0"/>
+      <Boolean AutoReverse="false"/>
+      <Integer StepSize="0"/>
+      <Double Speed="1.0000000000000000e+000"/>
+      <Integer TrackCount="4"/>
+      <Track name="Track_0">
+        <String Name=""/>
+        <String UUID="603280ec-f3ba-11e6-8000-4ccc6a4ed9d7"/>
+        <Boolean Solo="false"/>
+        <Boolean Mute="false"/>
+        <Double StartTime="0.0000000000000000e+000"/>
+        <Double StopTime="1.0000000000000000e+001"/>
+        <Integer RepeatBehavior="0"/>
+        <Boolean AutoReverse="false"/>
+        <Integer StepSize="0"/>
+        <Integer ClipCount="0"/>
+      </Track>
+      <Track name="Track_1">
+        <String Name=""/>
+        <String UUID="6032a810-f3ba-11e6-8000-4ccc6a4ed9d7"/>
+        <Boolean Solo="false"/>
+        <Boolean Mute="false"/>
+        <Double StartTime="0.0000000000000000e+000"/>
+        <Double StopTime="1.0000000000000000e+001"/>
+        <Integer RepeatBehavior="0"/>
+        <Boolean AutoReverse="false"/>
+        <Integer StepSize="0"/>
+        <Integer ClipCount="0"/>
+      </Track>
+      <Track name="Track_2">
+        <String Name=""/>
+        <String UUID="6032bba2-f3ba-11e6-8000-4ccc6a4ed9d7"/>
+        <Boolean Solo="false"/>
+        <Boolean Mute="false"/>
+        <Double StartTime="0.0000000000000000e+000"/>
+        <Double StopTime="1.0000000000000000e+001"/>
+        <Integer RepeatBehavior="0"/>
+        <Boolean AutoReverse="false"/>
+        <Integer StepSize="0"/>
+        <Integer ClipCount="0"/>
+      </Track>
+      <Track name="Track_3">
+        <String Name=""/>
+        <String UUID="6032cf34-f3ba-11e6-8000-4ccc6a4ed9d7"/>
+        <Boolean Solo="false"/>
+        <Boolean Mute="false"/>
+        <Double StartTime="0.0000000000000000e+000"/>
+        <Double StopTime="1.0000000000000000e+001"/>
+        <Integer RepeatBehavior="0"/>
+        <Boolean AutoReverse="false"/>
+        <Integer StepSize="0"/>
+        <Integer ClipCount="0"/>
+      </Track>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_9">
+    <String Module="libIDOVariant"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Variants"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOVariantsSessionHandler"/>
+      <String ClassLibrary="libIDOVariant"/>
+      <StringList Dependencies="1" element_0="IDOGroupSessionHandler"/>
+      <Boolean EditMode="true"/>
+      <Integer BaseNodeChildCount="0"/>
+      <Integer VariantSetCount="0"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_10">
+    <String Module="libIDOMediaTheatre"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Media Items"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOMediaItemSessionHandler"/>
+      <String ClassLibrary="libIDOMediaTheatre"/>
+      <Integer numberOfMediaItems="0"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_11">
+    <String Module="libIDOSpecialTrack"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="SpecialTrack Events"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOEventSessionHandler"/>
+      <String ClassLibrary="libIDOSpecialTrack"/>
+      <StringList Dependencies="1" element_0="IDOAnimationSessionHandler"/>
+      <Integer numberOfEvents="0"/>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_12">
+    <String Module="libIDOChangeManagement"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Change Management Information"/>
+      <Boolean apply="true"/>
+      <String Classname="IDOChangeManagementSessionHandler"/>
+      <String ClassLibrary="libIDOChangeManagement"/>
+      <StringList Dependencies="6" element_0="IDOAnimationSessionHandler" element_1="IDOGroupSessionHandler" element_2="JointLocationSessionHandler" element_3="IDOSolidMechanicsSessionHandler" element_4="IDOVariantsSessionHandler" element_5="IDOMeasurementSessionHandler"/>
+      <Integer Version="1"/>
+      <ExternalReferenceInfos name="">
+        <ExtRef name="ExtRef_0">
+          <SceneObjectRef ExtRefNodeRef="scene:treematch/"/>
+          <String FileName="D:\Project_6FI\Assets\JTFiles\0270_01811.jt"/>
+          <String FileNameSource="SourceFileNamePath"/>
+          <String NodeHash=""/>
+          <String NodeHash=""/>
+          <Boolean IsExtRef="true"/>
+        </ExtRef>
+        <Integer NumOfExtRefData="1"/>
+      </ExternalReferenceInfos>
+      <VersionAttachmentInfos name="">
+        <Integer NumOfVersionData="0"/>
+      </VersionAttachmentInfos>
+      <NewOldNodeMap name="NewOldNodeMap">
+        <SceneObjectRefList keyVector="0"/>
+        <SceneObjectRefList valueVector="0"/>
+      </NewOldNodeMap>
+      <OldNewNodeMap name="OldNewNodeMap">
+        <SceneObjectRefList keyVector="0"/>
+        <SceneObjectRefList valueVector="0"/>
+      </OldNewNodeMap>
+      <RootOldNewMap name="RootOldNewMap">
+        <SceneObjectRefList keyVector="0"/>
+        <SceneObjectRefList valueVector="0"/>
+      </RootOldNewMap>
+      <RootNewOldMap name="RootNewOldMap">
+        <SceneObjectRefList keyVector="0"/>
+        <SceneObjectRefList valueVector="0"/>
+      </RootNewOldMap>
+      <ResourceHandler name="AnimationResourcePersistenceHandler"/>
+      <ResourceHandler name="JointLocationResourcePersistenceHandler"/>
+      <ResourceHandler name="JointResourcePersistenceHandler"/>
+      <ResourceHandler name="KinematicChainResourcePersistenceHandler"/>
+      <ResourceHandler name="MeasurementResourcePersistenceHandler"/>
+      <ResourceHandler name="SimulationObjectResourcePersistenceHandler"/>
+      <ResourceHandler name="StateResourcePersistenceHandler"/>
+      <ResourceHandler name="VariantResourcePersistenceHandler"/>
+      <ResourceHandler name="VariantSetResourcePersistenceHandler"/>
+      <Phase name="Browse"/>
+      <Phase name="Adjust"/>
+      <Phase name="Finalize"/>
+      <ChangeBrowserState name="ChangeBrowserState">
+        <String Phase="Apply"/>
+        <String Topic=""/>
+        <Boolean ChangeBrowserEnabled="false"/>
+      </ChangeBrowserState>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_13">
+    <String Module="libIDORendererOptions"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Renderer Options"/>
+      <Boolean apply="true"/>
+      <String Classname="RendererOptionsSessionHandler"/>
+      <String ClassLibrary="libIDORendererOptions"/>
+      <GeneralRenderStates name="GeneralRenderStates">
+        <Boolean LinearWorkflow="false"/>
+      </GeneralRenderStates>
+    </StatePart>
+  </StateContainer>
+
+  <StateContainer name="StateContainer_14">
+    <String Module="libMonet"/>
+    <String Classname="IDOSessionContainer"/>
+    <String ClassLibrary="libIDOAppInterface"/>
+    <Integer numberOfSections="1"/>
+    <StatePart name="StatePart_0">
+      <String Name="Monet Configuration"/>
+      <Boolean apply="true"/>
+      <String Classname="MonetSessionHandler"/>
+      <String ClassLibrary="libMonet"/>
+      <Boolean SaveBakingDataInSession="true"/>
+    </StatePart>
+  </StateContainer>
+
+  <Integer numberOfSections="15"/>
+
+</root>

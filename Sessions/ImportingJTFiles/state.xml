@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<root>
+
+  <String ICIDO_GmbH_State_File_Version="11.0.0"/>
+
+  <String Unit="m"/>
+
+  <IDOFile ReferenceTreeFile="referenceTree.xml"/>
+
+  <Integer numberOfSections="1"/>
+
+  <State name="State_0">
+    <String Id="state:id/1885"/>
+    <String Name="Session-State"/>
+    <IDOFile ImageFile="Session-State.png"/>
+    <String User="John O'Shea"/>
+    <LongLong CreationDate="1487189363"/>
+    <LongLong ModificationDate="1487189363"/>
+    <String Description=""/>
+    <Matrix44f NavigationView="-1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 -1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 -4.47365176e-003 1.00000000e+000 "/>
+    <Matrix44f HeadView="-1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 -1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 -4.47365176e-003 1.00000000e+000 "/>
+    <Vec3f RotationCenter="0.00000000e+000 0.00000000e+000 0.00000000e+000 "/>
+    <Boolean ApplyViewpoint="true"/>
+    <Boolean ApplyNavigation="true"/>
+    <Integer numberOfSections="15"/>
+    <StateContainer name="StateContainer_0">
+      <String Module="libIDOExplore"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="10"/>
+      <StatePart name="StatePart_0">
+        <String Name="External References"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOExternalReferencesStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <Boolean BothLists="true"/>
+        <SceneObjectRefList LoadedExternalReferencesNodeRefs="0"/>
+        <SceneObjectRefList UnloadedExternalReferencesNodeRefs="15" ref_0="scene:treematch/_0_0" ref_1="scene:treematch/_2_0" ref_10="scene:treematch/_8_1_0" ref_11="scene:treematch/_9_1_0" ref_12="scene:treematch/_4_0" ref_13="scene:treematch/_6_0" ref_14="scene:treematch/_8_2_0" ref_2="scene:treematch/_10_0" ref_3="scene:treematch/_3_0" ref_4="scene:treematch/_1_0" ref_5="scene:treematch/_9_0_0" ref_6="scene:treematch/_8_0_0" ref_7="scene:treematch/_9_2_0" ref_8="scene:treematch/_5_0" ref_9="scene:treematch/_7_0"/>
+      </StatePart>
+      <StatePart name="StatePart_1">
+        <String Name="Visible Objects"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOVisibilityStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <StringList Dependencies="1" element_0="IDOExternalReferencesStateHandler"/>
+        <Boolean ListIsVisible="true"/>
+        <SceneObjectRefList VisibleObjectsNodeRefs="0"/>
+      </StatePart>
+      <StatePart name="StatePart_2">
+        <String Name="Pickable Objects"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOPickableStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <StringList Dependencies="1" element_0="IDOExternalReferencesStateHandler"/>
+        <SceneObjectRefList NotPickableNodeRefs="0"/>
+      </StatePart>
+      <StatePart name="StatePart_3">
+        <String Name="Transformed Objects"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOTransformationStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <StringList Dependencies="1" element_0="IDOExternalReferencesStateHandler"/>
+        <Integer numberOfSections="33"/>
+        <TransformedObject name="object_0">
+          <SceneObjectRef ObjectNode="scene:treematch/"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_1">
+          <SceneObjectRef ObjectNode="scene:treematch/_0"/>
+          <Matrix44f Transformd="3.6367245018482208e-002 1.5080669894814491e-002 0.0000000000000000e+000 0.0000000000000000e+000 1.5080669894814491e-002 -3.6367245018482208e-002 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -3.9370078593492508e-002 0.0000000000000000e+000 8.7500000372529030e-003 -5.0000002374872565e-004 2.0000000949949026e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_2">
+          <SceneObjectRef ObjectNode="scene:treematch/_0_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_3">
+          <SceneObjectRef ObjectNode="scene:treematch/_1"/>
+          <Matrix44f Transformd="3.6367245018482208e-002 1.5080669894814491e-002 0.0000000000000000e+000 0.0000000000000000e+000 1.5080669894814491e-002 -3.6367245018482208e-002 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -3.9370078593492508e-002 0.0000000000000000e+000 8.0000003799796104e-003 -5.0000002374872565e-004 2.0000000949949026e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_4">
+          <SceneObjectRef ObjectNode="scene:treematch/_1_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_5">
+          <SceneObjectRef ObjectNode="scene:treematch/_2"/>
+          <Matrix44f Transformd="3.6367245018482208e-002 1.5080669894814491e-002 0.0000000000000000e+000 0.0000000000000000e+000 1.5080669894814491e-002 -3.6367245018482208e-002 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -3.9370078593492508e-002 0.0000000000000000e+000 -4.0000001899898052e-003 -5.0000002374872565e-004 2.0000000949949026e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_6">
+          <SceneObjectRef ObjectNode="scene:treematch/_2_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_7">
+          <SceneObjectRef ObjectNode="scene:treematch/_3"/>
+          <Matrix44f Transformd="3.9370078593492508e-002 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -3.9370078593492508e-002 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -3.9370078593492508e-002 0.0000000000000000e+000 -4.7500003129243851e-003 -5.0000002374872565e-004 2.0000000949949026e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_8">
+          <SceneObjectRef ObjectNode="scene:treematch/_3_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_9">
+          <SceneObjectRef ObjectNode="scene:treematch/_4"/>
+          <Matrix44f Transformd="9.2372804880142212e-001 3.8304901123046875e-001 -0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 3.8304901123046875e-001 -9.2372804880142212e-001 0.0000000000000000e+000 0.0000000000000000e+000 8.7500000372529030e-003 -5.0000002374872565e-004 2.0000000949949026e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_10">
+          <SceneObjectRef ObjectNode="scene:treematch/_4_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_11">
+          <SceneObjectRef ObjectNode="scene:treematch/_5"/>
+          <Matrix44f Transformd="9.2372804880142212e-001 3.8304901123046875e-001 -0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 3.8304901123046875e-001 -9.2372804880142212e-001 0.0000000000000000e+000 0.0000000000000000e+000 8.0000003799796104e-003 -5.0000002374872565e-004 2.0000000949949026e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_12">
+          <SceneObjectRef ObjectNode="scene:treematch/_5_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_13">
+          <SceneObjectRef ObjectNode="scene:treematch/_6"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 -0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -4.0000001899898052e-003 -5.0000002374872565e-004 2.0000000949949026e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_14">
+          <SceneObjectRef ObjectNode="scene:treematch/_6_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_15">
+          <SceneObjectRef ObjectNode="scene:treematch/_7"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 -0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -4.7500003129243851e-003 -5.0000002374872565e-004 2.0000000949949026e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_16">
+          <SceneObjectRef ObjectNode="scene:treematch/_7_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_17">
+          <SceneObjectRef ObjectNode="scene:treematch/_8"/>
+          <Matrix44f Transformd="-1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 2.0000000949949026e-003 -9.2527718516066670e-004 5.0000002374872565e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_18">
+          <SceneObjectRef ObjectNode="scene:treematch/_8_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 -6.0000000521540642e-003 -4.2527713230811059e-004 1.7200000002048910e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_19">
+          <SceneObjectRef ObjectNode="scene:treematch/_8_0_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_20">
+          <SceneObjectRef ObjectNode="scene:treematch/_8_1"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_21">
+          <SceneObjectRef ObjectNode="scene:treematch/_8_1_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_22">
+          <SceneObjectRef ObjectNode="scene:treematch/_8_2"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 -6.7500001750886440e-003 -4.2527713230811059e-004 1.7200000002048910e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_23">
+          <SceneObjectRef ObjectNode="scene:treematch/_8_2_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_24">
+          <SceneObjectRef ObjectNode="scene:treematch/_9"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 2.0000000949949026e-003 -7.4722869612742215e-005 5.0000002374872565e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_25">
+          <SceneObjectRef ObjectNode="scene:treematch/_9_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 -6.0000000521540642e-003 -4.2527716141194105e-004 1.7200000002048910e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_26">
+          <SceneObjectRef ObjectNode="scene:treematch/_9_0_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_27">
+          <SceneObjectRef ObjectNode="scene:treematch/_9_1"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_28">
+          <SceneObjectRef ObjectNode="scene:treematch/_9_1_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_29">
+          <SceneObjectRef ObjectNode="scene:treematch/_9_2"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 -6.7500001750886440e-003 -4.2527716141194105e-004 1.7200000002048910e-004 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_30">
+          <SceneObjectRef ObjectNode="scene:treematch/_9_2_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_31">
+          <SceneObjectRef ObjectNode="scene:treematch/_10"/>
+          <Matrix44f Transformd="-1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 -1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 2.0000000949949026e-003 -5.0000002374872565e-004 -5.0000002374872565e-005 1.0000000000000000e+000 "/>
+        </TransformedObject>
+        <TransformedObject name="object_32">
+          <SceneObjectRef ObjectNode="scene:treematch/_10_0"/>
+          <Matrix44f Transformd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+        </TransformedObject>
+      </StatePart>
+      <StatePart name="StatePart_4">
+        <String Name="Light Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOLightStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <StringList Dependencies="1" element_0="IDOVisibilityStateHandler"/>
+        <Boolean IsHeadLightOn="true"/>
+        <Boolean IsSunLightOn="false"/>
+        <Integer numberOfSections="0"/>
+      </StatePart>
+      <StatePart name="StatePart_5">
+        <String Name="Coordinate Systems"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOCoordinateSystemStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <StringList Dependencies="2" element_0="IDOExternalReferencesStateHandler" element_1="IDOTransformationStateHandler"/>
+        <Integer NumCoordinateSystems="0"/>
+      </StatePart>
+      <StatePart name="StatePart_6">
+        <String Name="Appearance Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOAppearanceStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <StringList Dependencies="1" element_0="IDOExternalReferencesStateHandler"/>
+        <Integer IDOAppearanceStateHandler_appearanceList="0"/>
+      </StatePart>
+      <StatePart name="StatePart_7">
+        <String Name="Joint Location Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="JointLocationStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <Integer JointLocationCount="0"/>
+      </StatePart>
+      <StatePart name="StatePart_8">
+        <String Name="Control Point Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="ControlPointStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <Integer ControlPointCount="0"/>
+      </StatePart>
+      <StatePart name="StatePart_9">
+        <String Name="Groups"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOGroupStateHandler"/>
+        <String ClassLibrary="libIDOExploreApp"/>
+        <Integer GroupCount="1"/>
+        <Group name="Group_0">
+          <String Name="GroupRoot"/>
+          <String UUID="468c5118-f3ba-11e6-8001-4ccc6a4ed9d7"/>
+          <Boolean Visible="false"/>
+          <Boolean Pickable="true"/>
+          <Integer Cuttable="0"/>
+          <Integer ClipColour="0"/>
+          <Boolean IsDynamic="true"/>
+          <Boolean Collidable="false"/>
+          <Boolean CollisionHandling="false"/>
+          <Float MeltOffset="0.00000000e+000"/>
+          <String MaterialID=""/>
+          <Matrix44f Transformationd="1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 0.0000000000000000e+000 1.0000000000000000e+000 "/>
+          <String ActiveConstraint=""/>
+        </Group>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_1">
+      <String Module="libEnvironment"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Environment State"/>
+        <Boolean apply="true"/>
+        <String Classname="EnvironmentStateHandler"/>
+        <String ClassLibrary="libEnvironment"/>
+        <Integer EnvironmentStateHandler_EnvironmentList="0"/>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_2">
+      <String Module="libIDOMaterialUI"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Physical Material Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="PhysicalMaterialStateHandler"/>
+        <String ClassLibrary="libIDOMaterialUI"/>
+        <StringList Dependencies="1" element_0="IDOExternalReferencesStateHandler"/>
+        <Integer PhysicalMaterialStateHandler_materialList="0"/>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_3">
+      <String Module="libIDOReview"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="6"/>
+      <StatePart name="StatePart_0">
+        <String Name="Box Selector Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOBoxSelectorStateHandler"/>
+        <String ClassLibrary="libIDOReview"/>
+        <CurrentBoxSelector name="CurrentBoxSelector">
+          <String Name=""/>
+        </CurrentBoxSelector>
+      </StatePart>
+      <StatePart name="StatePart_1">
+        <String Name="Marker Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOMarkerStateHandler"/>
+        <String ClassLibrary="libIDOReview"/>
+        <Integer numberOfSections="0"/>
+      </StatePart>
+      <StatePart name="StatePart_2">
+        <String Name="Measurement Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOMeasurementStateHandler"/>
+        <String ClassLibrary="libIDOReview"/>
+        <StringList Dependencies="3" element_0="IDOAppStatePartFlexible" element_1="IDOAppStatePartRoute" element_2="IDOExternalReferencesStateHandler"/>
+        <Integer numberOfSections="0"/>
+      </StatePart>
+      <StatePart name="StatePart_3">
+        <String Name="Cutplane Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOCutplaneStateHandler"/>
+        <String ClassLibrary="libIDOReview"/>
+        <Cutplane name="">
+          <Boolean Enabled="false"/>
+          <Matrix44f Transform="1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 1.00000000e+000 "/>
+          <Vec3f ActualPlaneNormal="0.00000000e+000 0.00000000e+000 -1.00000000e+000 "/>
+          <Float ActualPlaneOffset="0.00000000e+000"/>
+          <Boolean LockedMode="false"/>
+        </Cutplane>
+      </StatePart>
+      <StatePart name="StatePart_4">
+        <String Name="Cuttable Objects"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOCuttableObjectsStateHandler"/>
+        <String ClassLibrary="libIDOReview"/>
+        <StringList Dependencies="1" element_0="IDOExternalReferencesStateHandler"/>
+        <DefaultValue name="CutProperties">
+          <Integer ClipProperty="1"/>
+          <Integer ClipColour="0"/>
+        </DefaultValue>
+        <Integer numberOfSections="0"/>
+      </StatePart>
+      <StatePart name="StatePart_5">
+        <String Name="Splicing State"/>
+        <Boolean apply="true"/>
+        <String Classname="SplicingStateHandler"/>
+        <String ClassLibrary="libIDOReview"/>
+        <Integer SplicingStateHandler_SpliceList="0"/>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_4">
+      <String Module="libIDOAnimation"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Animation Clips"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOAnimationClipStatePart"/>
+        <String ClassLibrary="libIDOAnimation"/>
+        <StringList Dependencies="7" element_0="IDOVariantsStateHandler" element_1="IDOMarkerLegacyStateHandler" element_2="IDOMarkerStateHandler" element_3="IDOExternalReferencesStateHandler" element_4="IDOAppStatePartFlexible" element_5="IDOMeasurementLegacyStateHandler" element_6="IDOMeasurementStateHandler"/>
+        <Integer numberOfClips="0"/>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_5">
+      <String Module="libIDOErgonomics"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Ergonomics Project"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOCharATStateHandler"/>
+        <String ClassLibrary="libIDOErgonomics"/>
+        <Project name="Project">
+          <String Name="InlineProject"/>
+          <String File="Dummy"/>
+        </Project>
+        <Connections name="Bone-Object Connections"/>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_6">
+      <String Module="libIDOGroupBasedSimulation"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Swept Volume Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOSweptVolumeStateHandler"/>
+        <String ClassLibrary="libIDOGroupBasedSimulation"/>
+        <Integer SweptVolumeCount="0"/>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_7">
+      <String Module="libIDOSolidMechanics"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="8"/>
+      <StatePart name="StatePart_0">
+        <String Name="Collidable Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOCollidableStateHandler"/>
+        <String ClassLibrary="libIDOSolidMechanics"/>
+        <Objects name="HierarchyInfos">
+          <Integer numObjects="1"/>
+          <SceneObjectRef nodeRef_0="scene:treematch/"/>
+          <Boolean val_0="false"/>
+        </Objects>
+      </StatePart>
+      <StatePart name="StatePart_1">
+        <String Name="Simulatable Objects"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOUseInSimulationStateHandler"/>
+        <String ClassLibrary="libIDOSolidMechanics"/>
+        <Objects name="HierarchyInfos">
+          <Integer numObjects="1"/>
+          <SceneObjectRef nodeRef_0="scene:treematch/"/>
+          <Boolean val_0="true"/>
+        </Objects>
+      </StatePart>
+      <StatePart name="StatePart_2">
+        <String Name="Melt Offset Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOMeltOffsetStateHandler"/>
+        <String ClassLibrary="libIDOSolidMechanics"/>
+        <Objects name="HierarchyInfos">
+          <Integer numObjects="1"/>
+          <SceneObjectRef nodeRef_0="scene:treematch/"/>
+          <Float val_0="0.00000000e+000"/>
+        </Objects>
+      </StatePart>
+      <StatePart name="StatePart_3">
+        <String Name="Simulation Objects Definitions"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOSolidMechanicsAttributeStateHandler"/>
+        <String ClassLibrary="libIDOSolidMechanics"/>
+        <StringList Dependencies="1" element_0="JointLocationStateHandler"/>
+        <Integer numberOfSections="0"/>
+      </StatePart>
+      <StatePart name="StatePart_4">
+        <String Name="Elastic1D Object Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOCableStateHandler"/>
+        <String ClassLibrary="libIDOSolidMechanics"/>
+        <Integer CableCount="0"/>
+      </StatePart>
+      <StatePart name="StatePart_5">
+        <String Name="Elastic1D Physical Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="CableSpecificationStateHandler"/>
+        <String ClassLibrary="libIDOSolidMechanics"/>
+        <Integer CableSpecificationStateHandler_CableSpecList="0"/>
+      </StatePart>
+      <StatePart name="StatePart_6">
+        <String Name="Global Simulation Options"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOSolidMechanicsOptionsStateHandler"/>
+        <String ClassLibrary="libIDOSolidMechanics"/>
+        <Double Damping="1.0000000000000000e+000"/>
+        <Boolean Skyhook="true"/>
+        <Boolean CollisionHandling="false"/>
+        <Boolean Snapping="true"/>
+        <Boolean BendingRadiusAlert="false"/>
+        <Boolean TensionForceAlert="false"/>
+        <Boolean TorsionMomentAlert="false"/>
+        <Boolean LengthAlert="false"/>
+        <Boolean BendingRadiusStop="false"/>
+        <Boolean TensionForceStop="false"/>
+        <Boolean TorsionMomentStop="false"/>
+        <Boolean LengthStop="false"/>
+        <Double Spring="2.5000000000000000e+002"/>
+        <Boolean AutoAdjust="true"/>
+        <Boolean SkyhookPreferred="false"/>
+      </StatePart>
+      <StatePart name="StatePart_7">
+        <String Name="Splicing State"/>
+        <Boolean apply="true"/>
+        <String Classname="SplicingStateHandler"/>
+        <String ClassLibrary="libIDOReview"/>
+        <Integer SplicingStateHandler_SpliceList="0"/>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_8">
+      <String Module="libIDOMultiInteract"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Touchable Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOTouchableStateHandler"/>
+        <String ClassLibrary="libIDOMultiInteract"/>
+        <Objects name="HierarchyInfos">
+          <Integer numObjects="1"/>
+          <SceneObjectRef nodeRef_0="scene:treematch/"/>
+          <Boolean val_0="false"/>
+        </Objects>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_9">
+      <String Module="libIDOPresent"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Sequencer Tracks"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOSequencerStateHandler"/>
+        <String ClassLibrary="libIDOPresent"/>
+        <StringList Dependencies="1" element_0="IDOAnimationSessionHandler"/>
+        <Double StartTime="0.0000000000000000e+000"/>
+        <Double StopTime="1.0000000000000000e+001"/>
+        <Double currentTime="0.0000000000000000e+000"/>
+        <Integer RepeatBehavior="0"/>
+        <Boolean AutoReverse="false"/>
+        <Integer StepSize="0"/>
+        <Double Speed="1.0000000000000000e+000"/>
+        <Double PauseSpeed="6.9524773526357431e-310"/>
+        <Integer TrackCount="4"/>
+        <Track name="Track_0">
+          <String UUID="603280ec-f3ba-11e6-8000-4ccc6a4ed9d7"/>
+          <Double StartTime="0.0000000000000000e+000"/>
+          <Double StopTime="1.0000000000000000e+001"/>
+          <Double currentTime="0.0000000000000000e+000"/>
+          <Integer RepeatBehavior="0"/>
+          <Boolean AutoReverse="false"/>
+          <Integer StepSize="0"/>
+          <Double Speed="1.0000000000000000e+000"/>
+          <Double PauseSpeed="1.2291773224394926e-312"/>
+          <Boolean Solo="false"/>
+          <Boolean Mute="false"/>
+        </Track>
+        <Track name="Track_1">
+          <String UUID="6032a810-f3ba-11e6-8000-4ccc6a4ed9d7"/>
+          <Double StartTime="0.0000000000000000e+000"/>
+          <Double StopTime="1.0000000000000000e+001"/>
+          <Double currentTime="0.0000000000000000e+000"/>
+          <Integer RepeatBehavior="0"/>
+          <Boolean AutoReverse="false"/>
+          <Integer StepSize="0"/>
+          <Double Speed="1.0000000000000000e+000"/>
+          <Double PauseSpeed="1.2291773224394926e-312"/>
+          <Boolean Solo="false"/>
+          <Boolean Mute="false"/>
+        </Track>
+        <Track name="Track_2">
+          <String UUID="6032bba2-f3ba-11e6-8000-4ccc6a4ed9d7"/>
+          <Double StartTime="0.0000000000000000e+000"/>
+          <Double StopTime="1.0000000000000000e+001"/>
+          <Double currentTime="0.0000000000000000e+000"/>
+          <Integer RepeatBehavior="0"/>
+          <Boolean AutoReverse="false"/>
+          <Integer StepSize="0"/>
+          <Double Speed="1.0000000000000000e+000"/>
+          <Double PauseSpeed="1.2291773224394926e-312"/>
+          <Boolean Solo="false"/>
+          <Boolean Mute="false"/>
+        </Track>
+        <Track name="Track_3">
+          <String UUID="6032cf34-f3ba-11e6-8000-4ccc6a4ed9d7"/>
+          <Double StartTime="0.0000000000000000e+000"/>
+          <Double StopTime="1.0000000000000000e+001"/>
+          <Double currentTime="0.0000000000000000e+000"/>
+          <Integer RepeatBehavior="0"/>
+          <Boolean AutoReverse="false"/>
+          <Integer StepSize="0"/>
+          <Double Speed="1.0000000000000000e+000"/>
+          <Double PauseSpeed="1.2291773224394926e-312"/>
+          <Boolean Solo="false"/>
+          <Boolean Mute="false"/>
+        </Track>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_10">
+      <String Module="libIDOVariant"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Variant Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOVariantsStateHandler"/>
+        <String ClassLibrary="libIDOVariant"/>
+        <Integer VariantNodeCount="0"/>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_11">
+      <String Module="libIDOSpecialTrack"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Tracking Properties"/>
+        <Boolean apply="true"/>
+        <String Classname="IDOSpecialTrackOffsetStateHandler"/>
+        <String ClassLibrary="libIDOSpecialTrack"/>
+        <Integer numberOfSectionsReachability="0"/>
+        <Integer numberOfSectionsMockup="1"/>
+        <Mockup name="Mockup_0">
+          <Matrix44f MockupOffset="1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 1.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 0.00000000e+000 1.00000000e+000 "/>
+          <Integer MockupID="-1"/>
+          <Boolean MockupState="false"/>
+        </Mockup>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_12">
+      <String Module="libIDORendererOptions"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Color Grading Settings"/>
+        <Boolean apply="true"/>
+        <String Classname="RendererOptionsStateHandler"/>
+        <String ClassLibrary="libIDORendererOptions"/>
+        <ColorGradingSettings name="">
+          <Float exposure="1.00000000e+000"/>
+          <Float brightness="0.00000000e+000"/>
+          <Float contrast="1.00000000e+000"/>
+          <Float saturation="1.00000000e+000"/>
+          <Float tint="0.00000000e+000"/>
+          <Float white="1.00000000e+000"/>
+        </ColorGradingSettings>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_13">
+      <String Module="libMonet"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="2"/>
+      <StatePart name="StatePart_0">
+        <String Name="Precomputed Lighting"/>
+        <Boolean apply="true"/>
+        <String Classname="BakingDataStateHandler"/>
+        <String ClassLibrary="libMonet"/>
+        <String BakingDataStateInfoFile="baking_state_1885_info.xml"/>
+      </StatePart>
+      <StatePart name="StatePart_1">
+        <String Name="Precomputed Lighting Settings"/>
+        <Boolean apply="true"/>
+        <String Classname="BakingSettingsStateHandler"/>
+        <String ClassLibrary="libMonet"/>
+        <BakingSettingsContainer name="">
+          <Boolean isEnabled="false"/>
+          <Integer mode="0"/>
+          <Integer objMode="0"/>
+          <Integer samplingPointDensity="2"/>
+          <Integer samplingPointQuality="2"/>
+          <perObjDensities name="">
+            <SceneObjectRefList bakingObjs="0"/>
+            <SceneObjectRefList nonBakingObjs="33" ref_0="scene:treematch/" ref_1="scene:treematch/_0" ref_10="scene:treematch/_4_0" ref_11="scene:treematch/_5" ref_12="scene:treematch/_5_0" ref_13="scene:treematch/_6" ref_14="scene:treematch/_6_0" ref_15="scene:treematch/_7" ref_16="scene:treematch/_7_0" ref_17="scene:treematch/_8" ref_18="scene:treematch/_8_0" ref_19="scene:treematch/_8_0_0" ref_2="scene:treematch/_0_0" ref_20="scene:treematch/_8_1" ref_21="scene:treematch/_8_1_0" ref_22="scene:treematch/_8_2" ref_23="scene:treematch/_8_2_0" ref_24="scene:treematch/_9" ref_25="scene:treematch/_9_0" ref_26="scene:treematch/_9_0_0" ref_27="scene:treematch/_9_1" ref_28="scene:treematch/_9_1_0" ref_29="scene:treematch/_9_2" ref_3="scene:treematch/_1" ref_30="scene:treematch/_9_2_0" ref_31="scene:treematch/_10" ref_32="scene:treematch/_10_0" ref_4="scene:treematch/_1_0" ref_5="scene:treematch/_2" ref_6="scene:treematch/_2_0" ref_7="scene:treematch/_3" ref_8="scene:treematch/_3_0" ref_9="scene:treematch/_4"/>
+            <IntegerList bakingObjDensities=""/>
+            <IntegerList nonBakingObjDensities="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+          </perObjDensities>
+        </BakingSettingsContainer>
+      </StatePart>
+    </StateContainer>
+    <StateContainer name="StateContainer_14">
+      <String Module="libMonetUI"/>
+      <String Classname="IDOStateContainer"/>
+      <String ClassLibrary="libIDOAppInterface"/>
+      <Integer numberOfSections="1"/>
+      <StatePart name="StatePart_0">
+        <String Name="Realtime Ray Tracing Settings"/>
+        <Boolean apply="true"/>
+        <String Classname="MonetUISettingsStateHandler"/>
+        <String ClassLibrary="libMonetUI"/>
+        <MonetUISettingsContainer name="">
+          <Boolean isHybridEnabledMaster="false"/>
+          <Boolean isHybridEnabledSlave="false"/>
+          <Integer visualizationModeMaster="0"/>
+          <Integer visualizationModeSlave="0"/>
+          <Float performanceTradeoffStatic="5.00000000e-001"/>
+          <Float shadowSoftness="1.00000001e-001"/>
+        </MonetUISettingsContainer>
+      </StatePart>
+    </StateContainer>
+  </State>
+
+  <StateTree name="StateTree_0">
+    <Integer numberOfGroups="0"/>
+    <Integer numberOfStates="1"/>
+    <State name="State_0">
+      <String Id="state:id/1885"/>
+      <Integer Position="0"/>
+    </State>
+  </StateTree>
+
+</root>

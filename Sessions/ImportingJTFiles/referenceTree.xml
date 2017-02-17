@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<root>
+
+  <FileHeader name="FileHeader">
+    <String ICIDO_GmbH_ReferenceTree_File_Version="11.0.0"/>
+  </FileHeader>
+
+  <Reference_Tree name="Reference_Tree">
+    <ReferenceTreeMatch name="ReferenceTreeMatch_0">
+      <String Root="SceneRoot"/>
+      <ReferenceTree name="ReferenceTree_0">
+        <Integer Version="1"/>
+        <Node name="Node_0">
+          <String Name="IDOSceneRoot"/>
+          <String FileReferencePath="D:\Project_6FI\Sessions\ImportingJTFiles\ImportingJTFiles.icb"/>
+          <LongLong ID="-1604919059"/>
+          <Node name="Node_0">
+            <String Name="TC3-0773369_03"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919058"/>
+            <Node name="Node_0">
+              <String Name="TC3-0773369_03_7118"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC3_0773369_03_TC3_0773369_7118.jt"/>
+              <LongLong ID="-1604919057"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Node name="Node_1">
+            <String Name="TC3-0773369_03"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919056"/>
+            <Node name="Node_0">
+              <String Name="TC3-0773369_03_7118"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC3_0773369_03_TC3_0773369_7118.jt"/>
+              <LongLong ID="-1604919055"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Node name="Node_2">
+            <String Name="TC3-0773369_03"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919054"/>
+            <Node name="Node_0">
+              <String Name="TC3-0773369_03_7118"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC3_0773369_03_TC3_0773369_7118.jt"/>
+              <LongLong ID="-1604919053"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Node name="Node_3">
+            <String Name="TC3-0773369_03"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919052"/>
+            <Node name="Node_0">
+              <String Name="TC3-0773369_03_7118"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC3_0773369_03_TC3_0773369_7118.jt"/>
+              <LongLong ID="-1604919051"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Node name="Node_4">
+            <String Name="TC1-0066988_000"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919050"/>
+            <Node name="Node_0">
+              <String Name="TC1-0066988_000_2207"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC1_0066988_000_TC1_0066988_2207.jt"/>
+              <LongLong ID="-1604919049"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Node name="Node_5">
+            <String Name="TC1-0066988_000"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919048"/>
+            <Node name="Node_0">
+              <String Name="TC1-0066988_000_2207"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC1_0066988_000_TC1_0066988_2207.jt"/>
+              <LongLong ID="-1604919047"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Node name="Node_6">
+            <String Name="TC1-0066988_000"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919046"/>
+            <Node name="Node_0">
+              <String Name="TC1-0066988_000_2207"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC1_0066988_000_TC1_0066988_2207.jt"/>
+              <LongLong ID="-1604919045"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Node name="Node_7">
+            <String Name="TC1-0066988_000"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919044"/>
+            <Node name="Node_0">
+              <String Name="TC1-0066988_000_2207"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC1_0066988_000_TC1_0066988_2207.jt"/>
+              <LongLong ID="-1604919043"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Node name="Node_8">
+            <String Name="TC3-0069417_04"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919042"/>
+            <Node name="Node_0">
+              <String Name="TC1-0048980_05-3410-00047"/>
+              <String FileReferencePath=""/>
+              <LongLong ID="-1604919041"/>
+              <Node name="Node_0">
+                <String Name="TC1-0048980_05-3410-00047_83"/>
+                <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC1_0048980_05_3410_00047_83.jt"/>
+                <LongLong ID="-1604919040"/>
+                <Integer ChildCount="0"/>
+              </Node>
+              <Integer ChildCount="1"/>
+            </Node>
+            <Node name="Node_1">
+              <String Name="TC3-0112557_003"/>
+              <String FileReferencePath=""/>
+              <LongLong ID="-1604919039"/>
+              <Node name="Node_0">
+                <String Name="TC3-0112557_003_84"/>
+                <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC3_0112557_003_TC3_0112557_84.jt"/>
+                <LongLong ID="-1604919038"/>
+                <Integer ChildCount="0"/>
+              </Node>
+              <Integer ChildCount="1"/>
+            </Node>
+            <Node name="Node_2">
+              <String Name="TC1-0048980_05-3410-00047"/>
+              <String FileReferencePath=""/>
+              <LongLong ID="-1604919037"/>
+              <Node name="Node_0">
+                <String Name="TC1-0048980_05-3410-00047_83"/>
+                <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC1_0048980_05_3410_00047_83.jt"/>
+                <LongLong ID="-1604919036"/>
+                <Integer ChildCount="0"/>
+              </Node>
+              <Integer ChildCount="1"/>
+            </Node>
+            <Integer ChildCount="3"/>
+          </Node>
+          <Node name="Node_9">
+            <String Name="TC3-0069417_04"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919035"/>
+            <Node name="Node_0">
+              <String Name="TC1-0048980_05-3410-00047"/>
+              <String FileReferencePath=""/>
+              <LongLong ID="-1604919034"/>
+              <Node name="Node_0">
+                <String Name="TC1-0048980_05-3410-00047_83"/>
+                <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC1_0048980_05_3410_00047_83.jt"/>
+                <LongLong ID="-1604919033"/>
+                <Integer ChildCount="0"/>
+              </Node>
+              <Integer ChildCount="1"/>
+            </Node>
+            <Node name="Node_1">
+              <String Name="TC3-0112557_003"/>
+              <String FileReferencePath=""/>
+              <LongLong ID="-1604919032"/>
+              <Node name="Node_0">
+                <String Name="TC3-0112557_003_84"/>
+                <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC3_0112557_003_TC3_0112557_84.jt"/>
+                <LongLong ID="-1604919031"/>
+                <Integer ChildCount="0"/>
+              </Node>
+              <Integer ChildCount="1"/>
+            </Node>
+            <Node name="Node_2">
+              <String Name="TC1-0048980_05-3410-00047"/>
+              <String FileReferencePath=""/>
+              <LongLong ID="-1604919030"/>
+              <Node name="Node_0">
+                <String Name="TC1-0048980_05-3410-00047_83"/>
+                <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC1_0048980_05_3410_00047_83.jt"/>
+                <LongLong ID="-1604919029"/>
+                <Integer ChildCount="0"/>
+              </Node>
+              <Integer ChildCount="1"/>
+            </Node>
+            <Integer ChildCount="3"/>
+          </Node>
+          <Node name="Node_10">
+            <String Name="TC3-0067928_05"/>
+            <String FileReferencePath=""/>
+            <LongLong ID="-1604919028"/>
+            <Node name="Node_0">
+              <String Name="TC3-0067928_05_84"/>
+              <String FileReferencePath="D:\Project_6FI\Assets\JTFiles\0270_01811\TC3_0067928_05_TC3_0067928_84.jt"/>
+              <LongLong ID="-1604919027"/>
+              <Integer ChildCount="0"/>
+            </Node>
+            <Integer ChildCount="1"/>
+          </Node>
+          <Integer ChildCount="11"/>
+        </Node>
+      </ReferenceTree>
+    </ReferenceTreeMatch>
+  </Reference_Tree>
+
+</root>
